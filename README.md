@@ -22,11 +22,6 @@ DSH 界面美化插件：在设置面板里粘贴自定义 CSS，保存后立即
 
 3. 重启后端 + 刷新页面
 
-## 发布规范
-
-- 每次发布或更新必须打 tag：`v<major>.<minor>.<patch>`（与 `package.json` 的 `version` 一致），并附简短说明
-- 只打 tag，不创建 release
-
 ## 许可证
 
 MIT
