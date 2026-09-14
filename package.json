@@ -1,8 +1,8 @@
 {
   "name": "dsh-css-inject",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "private": false,
-  "description": "User CSS injection section in the DSH settings panel",
+  "description": "User CSS injection section in the DSH settings panel: custom CSS plus a custom page background, both persisted host-side (settings namespace `css-inject` + storages/dsh-css-inject media), never in browser storage",
   "type": "module",
   "main": "lib/index.js",
   "exports": {
@@ -24,5 +24,8 @@
       ]
     }
   },
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "@deepseek-ai/schemastery": "^3.18.2"
+  }
 }
