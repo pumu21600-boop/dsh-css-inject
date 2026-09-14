@@ -1,6 +1,6 @@
 {
   "name": "dsh-css-inject",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": false,
   "description": "User CSS injection section in the DSH settings panel",
   "type": "module",
@@ -14,7 +14,7 @@
     "client": {
       "platform": "web",
       "inject": [
-        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-ui-renderer",
         "@deepseek-ai/dsh-client-ui-settings",
         "@deepseek-ai/dsh-client-ui-settings-general",
         "@deepseek-ai/dsh-client-locale",
